@@ -1,0 +1,6 @@
+CREATE TABLE borrower(
+    id_borrower INT PRIMARY KEY AUTO_INCREMENT,
+    fname VARCHAR(50),
+    lname VARCHAR(50),
+    streetAddress VARCHAR(30)
+) ENGINE =InnoDB;
