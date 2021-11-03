@@ -58,3 +58,11 @@ authPass='newPass'
 
 MYSQL = "mysql://netuser:netpass@localhost:3306/netdb"
 </pre>
+
+## Responsen muotoiluja
+
+response.json(dbResult); ->koko tietokannan tulos <br>
+
+response.json(dbResult[0].username); ->pelkkä username lainausmerkeissä
+
+response.send(dbResult[0].username); ->pelkkä username ilman lainausmerkkejä
