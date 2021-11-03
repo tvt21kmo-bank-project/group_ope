@@ -1,4 +1,4 @@
 const mysql = require('mysql');
-const myConnectionString = "mysql://netuser:netpass@localhost:3306/netdb";
-const connection = mysql.createConnection(myConnectionString);
+
+const connection = mysql.createConnection(process.env.MYSQL);
 module.exports = connection;

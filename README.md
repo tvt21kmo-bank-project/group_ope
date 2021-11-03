@@ -48,3 +48,13 @@ CREATE TABLE borrower(
     streetAddress VARCHAR(30)
 ) ENGINE =InnoDB;
 </pre>
+
+## Environment variables
+
+Tee sovelluksen juureen tiedosto <b>.env</b> ja kirjoita sinne rivit 
+<pre>
+authUser='newAdmin'
+authPass='newPass'
+
+MYSQL = "mysql://netuser:netpass@localhost:3306/netdb"
+</pre>
