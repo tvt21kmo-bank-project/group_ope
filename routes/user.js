@@ -9,7 +9,9 @@ router.get('/:id?',
       if (err) {
         response.json(err);
       } else {
-        response.json(dbResult);
+        //response.json(dbResult);
+        //response.json(dbResult[0].username);
+        response.send(dbResult[0].username);
       }
     });
   } else {
