@@ -1,4 +1,4 @@
-# Esimerkki sovellus testi
+# Esimerkki sovellus testixx
 
 Esimerkki sovellus Node.js/Express.js REST APIsta, jossa tietokantana on MySQL.
 
