@@ -8,6 +8,10 @@ var app = express();
 
 app.use(helmet());
 app.use(cors());
+
+var indexRouter = require('./routes/index');
+app.use('/', indexRouter);
+
 const dotenv = require('dotenv');
 dotenv.config();
 const basicAuth = require('express-basic-auth');
